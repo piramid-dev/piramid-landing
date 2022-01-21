@@ -8,7 +8,7 @@
   <Footer class="footer"/>
 </template>
 
-<script>
+<script setup>
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Intro from "./components/Intro.vue";
@@ -17,14 +17,4 @@ import Technologies from "./components/Technologies.vue";
 import About from "./components/About.vue";
 import Partners from "./components/Partners.vue";
 import data from "/data/data.json";
-
-export default {
-  components: {Footer, Header, Intro, Services, Technologies, About, Partners},
-  setup() {
-    return {
-      data
-    }
-  }
-}
 </script>
-
