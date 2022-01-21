@@ -1,0 +1,46 @@
+{
+  "services": {
+    "title": "Services",
+    "subtitle": "Lorem ipsum our services",
+    "list": [
+      {
+        "title": "frontend",
+        "text": "Nullam ullamcorper at mauris sed congue. Integer consequat tincidunt viverra. Proin aliquet, turpis ut sodales tincidunt, orci libero lobortis quam, ac posuere enim libero hendrerit mi."
+      },
+      {
+        "title": "backend & system integration",
+        "text": "Vivamus non scelerisque lorem. Etiam faucibus, dui eu fermentum blandit, erat orci elementum risus, nec auctor arcu tellus a sem. Ut lobortis nunc vitae pulvinar egestas. "
+      },
+      {
+        "title": "e-commerce",
+        "text": "Lorem ipsum"
+      },
+      {
+        "title": "interactive installations",
+        "text": "Lorem ipsum"
+      },
+      {
+        "title": "mobile application",
+        "text": "Lorem ipsum"
+      },
+      {
+        "title": "experiments & research",
+        "text": "Lorem ipsum"
+      }
+    ]
+  },
+  "tools": {
+    "title": "Our tools",
+    "subtitle": "we use the following technologies",
+    "list": ["vue", "nuxt", "react", "sass", "stylus"]
+  },
+  "partners": {
+    "title": "Partners",
+    "subtitle": "Our awesome partners",
+    "list": ["vue", "nuxt", "react", "sass", "stylus"]
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Quisque ex nisi, condimentum id mauris sed, sagittis dignissim neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris tincidunt facilisis imperdiet. Ut a tortor rutrum, eleifend lectus bibendum, euismod ligula. In hac habitasse platea dictumst. Donec ultricies, nisl sed tempus tempus, leo odio tincidunt tellus, non convallis enim felis vitae ex. Phasellus egestas sapien vitae dolor rutrum bibendum. Cras pulvinar lacus sit amet felis mattis ultrices. Nunc in interdum elit. Aliquam et magna aliquam, faucibus lacus at, finibus nulla."
+  }
+}
