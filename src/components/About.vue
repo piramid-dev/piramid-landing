@@ -2,10 +2,10 @@
   <section id="about" class="about big-padding">
     <Organic />
     <div class="container">
-      <div class="row mb-5">
+      <div class="row">
         <div class="col-md-8">
           <h2 class="section-heading">{{data.title}}</h2>
-          <p class="lead section-subheading text-muted">{{data.subtitle}}</p>
+          <p class="lead section-subheading text-muted mb-0">{{data.subtitle}}</p>
         </div>
       </div>
       <div class="row">
