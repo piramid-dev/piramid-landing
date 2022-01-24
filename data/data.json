@@ -1,27 +1,27 @@
 {
   "services": {
-    "title": "Services",
-    "subtitle": "Lorem ipsum our services",
+    "title": "We <span>.run</span> with your ideas",
+    "subtitle": "A ready-to-go fullstack development partner",
     "list": [
       {
-        "title": "frontend",
-        "text": "Nullam ullamcorper at mauris sed congue. Integer consequat tincidunt viverra. Proin aliquet, turpis ut sodales tincidunt, orci libero lobortis quam, ac posuere enim libero hendrerit mi."
+        "title": "frontend development",
+        "text": "custom websites, digital interfaces and web-applications with great attention to details, performances and usability."
       },
       {
-        "title": "backend & system integration",
-        "text": "Vivamus non scelerisque lorem. Etiam faucibus, dui eu fermentum blandit, erat orci elementum risus, nec auctor arcu tellus a sem. Ut lobortis nunc vitae pulvinar egestas. "
+        "title": "backend development & system integration",
+        "text": "tailored solutions depending on the project needs and scale."
       },
       {
         "title": "e-commerce",
-        "text": "Lorem ipsum"
+        "text": "custom online shops and integrations based on market-proven platform like Shopware an Shopify"
       },
       {
         "title": "interactive installations",
-        "text": "Lorem ipsum"
+        "text": "digital art installations for museums and events"
       },
       {
         "title": "mobile application",
-        "text": "Lorem ipsum"
+        "text": "App development for Android and iOs"
       },
       {
         "title": "experiments & research",
@@ -30,17 +30,37 @@
     ]
   },
   "tools": {
-    "title": "Our tools",
-    "subtitle": "we use the following technologies",
-    "list": ["vue", "nuxt", "react", "sass", "stylus"]
+    "title": "We <span>.define</span> unconventional solutions",
+    "subtitle": "Tailor-made solutions in widely adopted and emerging open source technologies",
+    "list": [
+      "vue",
+      "nuxt",
+      "svelte",
+      "react",
+      "threejs",
+      "d3",
+      "gsap-greensock",
+      "tailwindcss",
+      "sass",
+      "stylus",
+      "wordpress",
+      "shopware",
+      "shopify",
+      "symfony",
+      "github",
+      "vscode"
+    ]
   },
   "partners": {
-    "title": "Partners",
-    "subtitle": "Our awesome partners",
-    "list": ["vue", "nuxt", "react", "sass", "stylus"]
+    "title": "We <span>.commit</span> in solid relationships",
+    "subtitle": "Some of the companies for which we are taking care of their pixels",
+    "list": ["effecinque", "tundra"]
   },
   "about": {
-    "title": "About",
-    "subtitle": "Quisque ex nisi, condimentum id mauris sed, sagittis dignissim neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris tincidunt facilisis imperdiet. Ut a tortor rutrum, eleifend lectus bibendum, euismod ligula. In hac habitasse platea dictumst. Donec ultricies, nisl sed tempus tempus, leo odio tincidunt tellus, non convallis enim felis vitae ex. Phasellus egestas sapien vitae dolor rutrum bibendum. Cras pulvinar lacus sit amet felis mattis ultrices. Nunc in interdum elit. Aliquam et magna aliquam, faucibus lacus at, finibus nulla."
+    "title": "We <span>.push</span> the limits",
+    "paragraph_1": "We are a Turin based web development agency.",
+    "paragraph_2": "We work side by side with UX and Creative agencies to build unique digital experiences for Brands, NGO, Museums and Institutions.",
+    "paragraph_3": "We have 15+ years experience and we constantly keep up to date with emerging technologies and frameworks so we can advice on the most suitable STACK for each project. ",
+    "paragraph_4": "We are not the classic “one size fits all” agency, instead depending on project requirements and expectations we develop custom solutions based on solid technologies."
   }
 }
