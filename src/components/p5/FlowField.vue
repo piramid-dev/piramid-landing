@@ -26,8 +26,8 @@ export default {
           const canvas = s.createCanvas(window.innerWidth, flow_box.value.clientHeight)
           canvas.id('canvas-' + Math.floor(1000 * s.random()))
           canvas.parent('flow_box')
-          cols = s.floor(flow_box.value.clientWidth/scl)
-          rows = s.floor(flow_box.value.clientHeight/scl)
+          cols = s.floor(flow_box.value.clientWidth/scl) + 2
+          rows = s.floor(flow_box.value.clientHeight/scl) + 1
         }
         s.draw = () => {
           s.background(255)
@@ -37,9 +37,9 @@ export default {
           // const index = 100;
 
           var yoff = 0
-          for (var y = 0; y < rows + 1; y++){
+          for (var y = 0; y < rows ; y++){
             var xoff=0
-            for(var x = 0; x < cols + 2; x++){
+            for(var x = 0; x < cols ; x++){
               // var index = (x + y * s.width) * 4
               var angle =  s.noise( xoff, yoff, s.frameCount * 0.01) * s.TWO_PI
               // s.noise(x * 0.001 * mouseFactorX, y * mouseFactorY * index * 0.02, s.frameCount * 0.003)
