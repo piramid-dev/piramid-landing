@@ -7,8 +7,8 @@
           <h2 class="section-heading" v-html="data.title"></h2>
           <p class="lead section-subheading text-muted">{{data.paragraph_1}}</p>
           <p class="lead section-subheading text-muted">{{data.paragraph_2}}</p>
-          <p class="lead section-subheading text-muted">{{data.paragraph_3}}</p>
-          <p class="lead section-subheading text-muted mb-0">{{data.paragraph_4}}</p>
+          <p class="lead section-subheading text-muted mb-4">{{data.paragraph_3}}</p>
+          <a class="btn btn-dark" href="mailto:info@piramid.studio">{{data.button}}</a>
         </div>
       </div>
       <div class="row">
@@ -39,10 +39,17 @@ export default {
   p
     margin-bottom: 10px
 
+  .btn-dark
+    border-color: $purple
+    background-color: $purple
+    &:hover
+      background-color: darken($purple, 5%)
+      border-color: darken($purple, 5%)
+
   h2
     &:after
-      color: $primary
+      color: $purple
     :deep(span)
-      color: $primary
+      color: $purple
 
 </style>

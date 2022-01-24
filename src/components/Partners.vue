@@ -6,7 +6,11 @@
           <p class="lead section-subheading text-muted">{{data.subtitle}}</p>
       </div>
       <div class="row">
-        
+        <div class="offset-md-1 col-md-10">
+          <div class="row logos d-flex">
+            <img v-for="(partner, index) in data.list" :key="index" :src="'/images/partners/'+partner+'.svg'" :alt="partner" :title="partner">
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -30,4 +34,19 @@ export default {
       color: $yellow
     :deep(span)
       color: $yellow
+
+  .logos
+    & > div
+      margin-bottom: 30px 
+    img
+      width: auto
+      height: 20px
+      margin: 0 auto
+      display: block
+      filter: grayscale(100%)
+      transition: all .3s ease-in-out
+      @include media-breakpoint-up(md)
+        height: 30px
+      &:hover
+        filter: grayscale(0%)
 </style>
