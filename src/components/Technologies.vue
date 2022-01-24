@@ -52,13 +52,14 @@ export default {
     margin-bottom: 30px 
   img
     width: auto
-    max-height: 40px
+    height: 40px
+    max-width: 150px
     margin: 0 auto
     display: block
     filter: grayscale(100%)
     transition: all .3s ease-in-out
     @include media-breakpoint-up(md)
-      max-height: 60px
+      height: 60px
     &:hover
       filter: grayscale(0%)
 </style>

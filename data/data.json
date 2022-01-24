@@ -37,30 +37,30 @@
       "nuxt",
       "svelte",
       "react",
+      "webpack",
       "threejs",
       "d3",
       "gsap-greensock",
+      "docker",
       "tailwindcss",
       "sass",
       "stylus",
-      "wordpress",
       "shopware",
       "shopify",
-      "symfony",
-      "github",
+      "wordpress",
       "vscode"
     ]
   },
   "partners": {
     "title": "We <span>.commit</span> in solid relationships",
     "subtitle": "Some of the companies for which we are taking care of their pixels",
-    "list": ["effecinque", "tundra"]
+    "list": ["mbw", "cineteca-milano"]
   },
   "about": {
     "title": "We <span>.push</span> the limits",
-    "paragraph_1": "We are a Turin based web development agency.",
-    "paragraph_2": "We work side by side with UX and Creative agencies to build unique digital experiences for Brands, NGO, Museums and Institutions.",
-    "paragraph_3": "We have 15+ years experience and we constantly keep up to date with emerging technologies and frameworks so we can advice on the most suitable STACK for each project. ",
-    "paragraph_4": "We are not the classic “one size fits all” agency, instead depending on project requirements and expectations we develop custom solutions based on solid technologies."
+    "paragraph_1": "We are a fullstack web development company based in Turin, currently working side by side with UX and creative agencies to build unique digital experiences for Brands, NGO, Museums and Institutions.",
+    "paragraph_2": "Thanks to a 15+ years experience and continuous updating on emerging open source technologies we can empower your project with the most suitable and cost-effective stack.",
+    "paragraph_3": "We mainly work on not-disclosable project, please contact us for a private pitch.",
+    "button": "Contact us"
   }
 }

@@ -9,7 +9,7 @@
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li> -->
                     <li class="nav-item"><a class="nav-link text-primary" href="mailto:info@piramid.studio">Contact Us</a></li>
                 </ul>
             </div>
