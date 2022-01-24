@@ -28,3 +28,9 @@ body
 .fixed-top
   @include media-breakpoint-down(md)
     position: absolute
+
+h2.section-heading
+  &:after
+    content: '\\'
+    font-size: 40px
+    margin-left: 10px

@@ -1,10 +1,10 @@
 <template>
 
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#intro"><img src="/images/logo.svg" alt="Piramid" class="logo"></a>
-            <div class="d-none d-md-block collapse navbar-collapse" id="navbarResponsive">
+            <div class="d-none d-lg-block collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
@@ -26,7 +26,7 @@ name: "Header"
 
 <style lang="sass" scoped>
 #mainNav
-  background-color: black
+  background-color: $body-bg
   img.logo
     width: 120px
 

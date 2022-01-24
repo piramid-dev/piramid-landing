@@ -3,7 +3,7 @@
     
     <div class="container">
       <div class="row text-center mb-5">
-          <h2 class="section-heading">{{data.title}}</h2>
+          <h2 class="section-heading" v-html="data.title"></h2>
           <p class="lead section-subheading text-muted">{{data.subtitle}}</p>
       </div>
       <div class="row">
@@ -28,12 +28,19 @@ export default {
 }
 </script>
 
-<style lang="sass" scope>
+<style lang="sass" scoped>
 .technologies
   position: relative
   overflow: hidden
+  background-color: rgba($pink, 0.05)
   background-image: url(/images/dot-pink.svg)
-  background-size: 20px
+  background-size: 40px
+
+  h2
+    &:after
+      color: $pink
+    :deep(span)
+      color: $pink
 
   & > .container
     z-index: 10
