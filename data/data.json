@@ -4,34 +4,34 @@
     "subtitle": "A ready-to-go fullstack development partner",
     "list": [
       {
-        "title": "frontend development",
-        "text": "custom websites, digital interfaces and web-applications with great attention to details, performances and usability."
+        "title": "Frontend development",
+        "text": "Custom websites and web-applications focused on details, performances and usability."
       },
       {
-        "title": "backend development & system integration",
-        "text": "tailored solutions depending on the project needs and scale."
+        "title": "Backend development & System integration",
+        "text": "Tailored and scalable solutions depending on the project infrastructure."
       },
       {
-        "title": "e-commerce",
-        "text": "custom online shops and integrations based on market-proven platform like Shopware an Shopify"
+        "title": "E-commerce",
+        "text": "Custom online shops and integrations based on market-proven platforms like Shopware and Shopify."
       },
       {
-        "title": "interactive installations",
-        "text": "digital art installations for museums and events"
+        "title": "Interactive installations",
+        "text": "Digital installations for interactive spaces, museums and events"
       },
       {
-        "title": "mobile application",
-        "text": "App development for Android and iOs"
+        "title": "Mobile application",
+        "text": "Cross-platform app and PWA development for Android and iOS."
       },
       {
-        "title": "experiments & research",
+        "title": "Experiments & research",
         "text": "Lorem ipsum"
       }
     ]
   },
   "tools": {
     "title": "We <span>.define</span> unconventional solutions",
-    "subtitle": "Tailor-made solutions in widely adopted and emerging open source technologies",
+    "subtitle": "Tailor-made solutions built using widely adopted and emerging open source technologies",
     "list": [
       "vue",
       "nuxt",
