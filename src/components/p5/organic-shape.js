@@ -13,8 +13,8 @@ function Shape(s, c, index) {
     const xnoise = s.noise(this.noisePos) * 100
     const ynoise = s.noise(this.noisePos) * 100
 
-    s.fill(0, 220)
-    s.stroke(this.alpha, this.alpha)
+    s.fill(255)
+    s.stroke(this.alpha)
 
     s.beginShape()
     for (let a = 0; a < s.TWO_PI; a += s.TWO_PI / this.resolution) {
