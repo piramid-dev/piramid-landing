@@ -1,6 +1,6 @@
 {
   "services": {
-    "title": "We <span>.run</span> with your ideas",
+    "title": "we <span>.run</span> with your ideas",
     "subtitle": "A reliable fullstack development partner",
     "list": [
       {
@@ -30,7 +30,7 @@
     ]
   },
   "tools": {
-    "title": "We <span>.define</span> unconventional solutions",
+    "title": "we <span>.define</span> unconventional solutions",
     "subtitle": "Tailor-made solutions built using widely adopted and emerging open source technologies",
     "list": [
       "vue",
@@ -52,12 +52,12 @@
     ]
   },
   "partners": {
-    "title": "We <span>.commit</span> in solid relationships",
+    "title": "we <span>.commit</span> in solid relationships",
     "subtitle": "Some of the companies for which we are taking care of their pixels",
     "list": ["mbw", "cineteca-milano"]
   },
   "about": {
-    "title": "We <span>.push</span> the limits",
+    "title": "we <span>.push</span> the limits",
     "paragraph_1": "We are a fullstack web development company based in Turin, currently working side by side with UX studios, IT departments and creative agencies to build unique digital experiences for Brands, NGO, Museums and Institutions.",
     "paragraph_2": "Thanks to 15+ years of experience and continuous updates on emerging open source technologies we can empower each project with the most suitable and cost-effective stack.",
     "paragraph_3": "We mainly work on not-disclosable projects, please contact us for a private pitch.",
