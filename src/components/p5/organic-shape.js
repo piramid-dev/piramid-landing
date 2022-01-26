@@ -1,6 +1,6 @@
-function Shape(s, c, index) {
-  this.x = s.width / 2
-  this.y = s.height / 2
+function Shape(s, c, index, canvas) {
+  this.x = canvas.width / 2
+  this.y = canvas.width / 2
   this.alpha = c
   this.position = s.createVector(this.x, this.y)
   this.radius = 100 * (index * 0.4 + 1)
@@ -9,7 +9,7 @@ function Shape(s, c, index) {
   this.resolution = 30
   this.points = []
 
-  this.update = function (index) {
+  this.update = function (canvas) {
     const xnoise = s.noise(this.noisePos) * 100
     const ynoise = s.noise(this.noisePos) * 100
 
@@ -18,14 +18,6 @@ function Shape(s, c, index) {
 
     s.beginShape()
     for (let a = 0; a < s.TWO_PI; a += s.TWO_PI / this.resolution) {
-      // let mouseXVariant = 1
-      // if (s.mouseX > s.width / 2) {
-      //   mouseXVariant = s.map(s.mouseX, s.width / 2, s.width, 1, 0.8)
-      // } else {
-      //   mouseXVariant = s.map(s.mouseX, 0, s.width / 2, 0.8, 1)
-      // }
-      // const mouseYVariant = s.map(s.mouseY, 0, s.height, -0.2, 0.2)
-
       const noiseXoff = s.map(s.cos(a), -1, 1, 0, 1)
       const noiseYoff = s.map(s.sin(a), -1, 1, 0, 1)
       const variant = s.map(
@@ -36,9 +28,12 @@ function Shape(s, c, index) {
         1.0
       )
 
-      if (s.mouseX != 0 || s.mouseY != 0) {
-        this.x = s.lerp(this.x, s.width / 4 + s.mouseX / 2, 0.001)
-        this.y = s.lerp(this.y, s.height / 4 + s.mouseY / 2, 0.001)
+      if (s.mouseX != 0 && s.mouseY > 0 && s.mouseY < canvas.height) {
+        this.x = s.lerp(this.x, s.mouseX, 0.001)
+        this.y = s.lerp(this.y, s.mouseY, 0.001)
+      } else {
+        this.x = s.lerp(this.x, canvas.width / 2, 0.002)
+        this.y = s.lerp(this.y, canvas.height / 2, 0.002)
       }
 
       const x = this.x + xnoise + s.cos(a) * this.radius * variant
@@ -51,7 +46,5 @@ function Shape(s, c, index) {
     this.noisePos += 0.01
   }
 }
-
-// module.exports = Shape
 
 export default Shape

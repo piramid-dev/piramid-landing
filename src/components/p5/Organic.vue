@@ -13,34 +13,35 @@ export default {
   setup() {
     const organic_box = ref(null)
 
+
     onMounted(() => {
 
       const MAX_SHAPES = 16
       const shapesArray = []
+      let canvas
 
       const sketch = (s) => {
         s.setup = () => {
 
-          const canvas = s.createCanvas(window.innerWidth, organic_box.value.clientHeight)
+          canvas = s.createCanvas(window.innerWidth, organic_box.value.clientHeight)
           canvas.id('canvas-' + Math.floor(1000 * s.random()))
           canvas.parent('organic_box')
 
           for (let index = 0; index <= MAX_SHAPES; index++) {
             const paint = s.map(index, 0, MAX_SHAPES, 0, 255)
-            const shape = new Shape(s, paint, index)
+            const shape = new Shape(s, paint, index, canvas)
             shapesArray.push(shape)
           }
         }
         s.draw = () => {
           s.background(255)
-
           for (let index = MAX_SHAPES; index >= 0; index--) {
-            shapesArray[index].update(index)
-          }
+            shapesArray[index].update(canvas)
+          }   
         }
 
         s.windowResized = function () {
-          s.resizeCanvas(window.innerWidth, organic_box.value.clientHeight)
+          s.resizeCanvas(window.innerWidth, canvas.height)
         }
 
       }
