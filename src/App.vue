@@ -4,7 +4,7 @@
   <Services :data="data.services"/>
   <Technologies :data="data.tools"/>
   <About :data="data.about"/>
-  <!-- <Partners :data="data.partners"/> -->
+  <Partners :data="data.partners"/>
   <Footer class="footer"/>
 </template>
 

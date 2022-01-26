@@ -54,7 +54,17 @@
   "partners": {
     "title": "We <span>.commit</span> in solid relationships",
     "subtitle": "Some of the companies for which we are taking care of their pixels",
-    "list": ["mbw", "cineteca-milano"]
+    "list": [
+      "almacreativa",
+      "armando-testa",
+      "cineteca-milano",
+      "dataninja",
+      "fightbean",
+      "mybosswas",
+      "shopiemonte",
+      "tundra",
+      "vicine"
+    ]
   },
   "about": {
     "title": "We <span>.push</span> the limits",
