@@ -8,7 +8,9 @@
       <div class="row">
         <div class="offset-md-1 col-md-10">
           <div class="row logos d-flex">
-            <img v-for="(partner, index) in data.list" :key="index" :src="'/images/partners/'+partner+'.svg'" :alt="partner" :title="partner">
+            <div v-for="(partner, index) in data.list" :key="index" class="col-4 col-md-4">
+              <img :src="'/images/partners/'+partner+'.svg'" :alt="partner" :title="partner">
+            </div>
           </div>
         </div>
       </div>
