@@ -1,14 +1,14 @@
 {
   "services": {
-    "title": "We <span>.run</span> with your ideas",
+    "title": "we <span>.run</span> with your ideas",
     "subtitle": "A reliable fullstack development partner",
     "list": [
       {
-        "title": "Frontend development",
+        "title": "Frontend Development",
         "text": "Custom websites and web-applications with a focus on details, performances and usability."
       },
       {
-        "title": "Backend development & System integration",
+        "title": "Backend Development & System Integration",
         "text": "Tailored and scalable solutions depending on the project requirements and infrastructure."
       },
       {
@@ -16,21 +16,21 @@
         "text": "Custom online shops and integrations based on market-proven platforms like Shopware and Shopify."
       },
       {
-        "title": "Interactive installations",
+        "title": "Interactive Installations",
         "text": "Digital installations for interactive spaces, museums and events"
       },
       {
-        "title": "Mobile application",
+        "title": "Mobile Application",
         "text": "Cross-platform app and PWA development for Android and iOS."
       },
       {
-        "title": "Research & experiments",
+        "title": "Research & Experiments",
         "text": "Where we go into the unknown to seek new challenges and solutions."
       }
     ]
   },
   "tools": {
-    "title": "We <span>.define</span> unconventional solutions",
+    "title": "we <span>.define</span> unconventional solutions",
     "subtitle": "Tailor-made solutions built using widely adopted and emerging open source technologies",
     "list": [
       "vue",
@@ -52,7 +52,7 @@
     ]
   },
   "partners": {
-    "title": "We <span>.commit</span> in solid relationships",
+    "title": "we <span>.commit</span> in solid relationships",
     "subtitle": "Some of the companies for which we are taking care of their pixels",
     "list": [
       "almacreativa",
@@ -67,8 +67,8 @@
     ]
   },
   "about": {
-    "title": "We <span>.push</span> the limits",
-    "paragraph_1": "We are a fullstack web development company based in Turin, currently working side by side with UX studios, IT departments and creative agencies to build unique digital experiences for Brands, NGO, Museums and Institutions.",
+    "title": "we <span>.push</span> the limits",
+    "paragraph_1": "We are a fullstack web development company based in Turin, currently working side by side with UX studios, IT departments and creative agencies to build unique digital experiences for Brands, NGOs, Museums and Institutions.",
     "paragraph_2": "Thanks to 15+ years of experience and continuous updates on emerging open source technologies we can empower each project with the most suitable and cost-effective stack.",
     "paragraph_3": "We mainly work on not-disclosable projects, please contact us for a private pitch.",
     "button": "Contact us"
