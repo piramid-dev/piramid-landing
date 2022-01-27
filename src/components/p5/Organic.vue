@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import { ref, onMounted } from 'vue'
 import Shape from './organic-shape.js'
+import { ref, onMounted } from 'vue'
 import P5 from 'p5'
 
 export default {
