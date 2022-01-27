@@ -29,8 +29,8 @@ export default {
           const canvas = s.createCanvas(window.innerWidth, flow_box.value.clientHeight)
           canvas.id('canvas-' + Math.floor(1000 * s.random()))
           canvas.parent('flow_box')
-          cols = s.floor(flow_box.value.clientWidth/scl)
-          rows = s.floor(flow_box.value.clientHeight/scl)
+          cols = s.floor(flow_box.value.clientWidth/scl) + 1
+          rows = s.floor(flow_box.value.clientHeight/scl) + 1
 
           yoff = 0
           for (var y = 0; y < rows; y++){
