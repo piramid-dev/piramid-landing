@@ -17,10 +17,10 @@ export default {
 
     const inc = 0.05
     const scl = 30
-    const q = 1
     const lines = []
     let cols, rows
-    let angle, vector, xoff, yoff
+    let xoff, yoff
+    let mousePos
 
     onMounted(() => {
     
@@ -29,6 +29,31 @@ export default {
           const canvas = s.createCanvas(window.innerWidth, flow_box.value.clientHeight)
           canvas.id('canvas-' + Math.floor(1000 * s.random()))
           canvas.parent('flow_box')
+          initCanvas()
+        }
+        s.draw = () => {
+          s.background(255)
+          mousePos = s.createVector(s.mouseX, s.mouseY);
+
+          yoff = 0
+          for (var y = 0; y < rows ; y++){
+            xoff = 0
+            for(var x = 0; x < cols ; x++){
+              lines[y][x].repulsion(mousePos)
+              lines[y][x].update(xoff, yoff)
+              lines[y][x].draw()
+              xoff += inc
+            }
+            yoff += inc
+          }
+        }
+
+        s.windowResized = function () {
+          s.resizeCanvas(window.innerWidth, flow_box.value.clientHeight)
+          // initCanvas()
+        }
+
+        const initCanvas = () => {
           cols = s.floor(flow_box.value.clientWidth/scl) + 2
           rows = s.floor(flow_box.value.clientHeight/scl) + 1
 
@@ -42,24 +67,6 @@ export default {
             }
             lines.push(lines_x)
           }
-        }
-        s.draw = () => {
-          s.background(255)
-
-          yoff = 0
-          for (var y = 0; y < rows ; y++){
-            xoff = 0
-            for(var x = 0; x < cols ; x++){
-              lines[y][x].update(xoff, yoff)
-              lines[y][x].draw()
-              xoff += inc
-            }
-            yoff += inc
-          }
-        }
-
-        s.windowResized = function () {
-          s.resizeCanvas(window.innerWidth, flow_box.value.clientHeight)
         }
 
       }
